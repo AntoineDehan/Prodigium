@@ -50,8 +50,7 @@ public class prodigium
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-        event.accept(ModItems.TOKEN_MELEE);
-        event.accept(ModItems.RAW_COBALT);
+        
     }
     }
 
