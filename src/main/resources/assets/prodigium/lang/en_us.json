@@ -84,7 +84,12 @@
   "item.prodigium.adamantium_mask": "Adamantium Mask",
   "item.prodigium.strange_paste": "Strange paste",
 
-  "item.prodigium.token_melee": "Melee Token",
+  "item.prodigium.token_melee": "§3Class Token - Melee",
+  "item.prodigium.token_mage": "§3Class Token - Mage",
+  "item.prodigium.token_ranged": "§3Class Token - Ranged",
+  "item.prodigium.reset_token_melee": "§4Reset Token - Melee",
+  "item.prodigium.reset_token_mage": "§4Reset Token - Mage",
+  "item.prodigium.reset_token_ranged": "§4Reset Token - Ranged",
 
 
   "creativetab.prodigium_tab": "Prodigium's creative tab"
