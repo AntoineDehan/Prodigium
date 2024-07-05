@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "prodigium:block/cobalt_ore" }
+    "": {
+      "model": "prodigium:block/cobalt_ore"
+    }
   }
 }

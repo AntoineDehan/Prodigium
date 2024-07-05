@@ -24,6 +24,10 @@ public class ModItems {
     public static final RegistryObject<Item>  RESET_TOKEN_RANGED = ITEMS.register("reset_token_ranged",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item>  defender_medal = ITEMS.register("defender_medal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  eternia_crystal = ITEMS.register("eternia_crystal",
+            () -> new Item(new Item.Properties()));
 
 
     public static final RegistryObject<Item>  RAW_COBALT = ITEMS.register("raw_cobalt",

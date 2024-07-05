@@ -1,6 +1,7 @@
 package net.denlille.prodigium;
 
 import com.mojang.logging.LogUtils;
+import net.denlille.prodigium.block.ModBlocks;
 import net.denlille.prodigium.item.ModCreativeModTabs;
 import net.denlille.prodigium.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class prodigium
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -49,9 +51,7 @@ public class prodigium
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-    if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-        
-    }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

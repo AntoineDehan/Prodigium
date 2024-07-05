@@ -91,6 +91,9 @@
   "item.prodigium.reset_token_mage": "§4Reset Token - Mage",
   "item.prodigium.reset_token_ranged": "§4Reset Token - Ranged",
 
+  "item.prodigium.defender_medal": "§6Defender Medal",
+  "item.prodigium.eternia_crystal": "§6Eternia Crystal",
+
 
   "creativetab.prodigium_tab": "Prodigium's creative tab"
 }
