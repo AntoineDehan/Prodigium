@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "cobalt_ingot",
+  "key": {
+    "#": {
+      "item": "prodigium:cobalt_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "prodigium:cobalt_ingot"
+  }
+}

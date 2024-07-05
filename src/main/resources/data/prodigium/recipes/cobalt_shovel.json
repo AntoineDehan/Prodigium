@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "prodigium:cobalt_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " # ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "prodigium:cobalt_shovel"
+  }
+}

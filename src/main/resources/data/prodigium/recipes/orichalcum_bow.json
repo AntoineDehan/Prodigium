@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "prodigium:orichalcum_rod"
+    },
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " #A",
+    "B A",
+    " #A"
+  ],
+  "result": {
+    "count": 1,
+    "item": "prodigium:orichalcum_bow"
+  }
+}

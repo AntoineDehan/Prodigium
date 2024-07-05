@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "prodigium:shroomite_ingot"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "prodigium:shroomite_hoe"
+  }
+}

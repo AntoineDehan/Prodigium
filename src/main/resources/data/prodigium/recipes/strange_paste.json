@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#A#",
+    " # "
+
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:mushrooms"
+    },
+    "A":{
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "item": "prodigium:strange_paste"
+  }
+}

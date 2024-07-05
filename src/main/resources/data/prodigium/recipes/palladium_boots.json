@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "prodigium:palladium_ingot"
+    }
+  },
+  "result": {
+    "item": "prodigium:palladium_boots"
+  }
+}

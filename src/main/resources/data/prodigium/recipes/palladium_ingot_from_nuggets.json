@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "palladium_ingot",
+  "key": {
+    "#": {
+      "item": "prodigium:palladium_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "prodigium:palladium_ingot"
+  }
+}
