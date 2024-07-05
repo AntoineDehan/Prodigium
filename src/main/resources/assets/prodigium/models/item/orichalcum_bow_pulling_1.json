@@ -1,0 +1,6 @@
+{
+  "parent":"prodigium:item/orichalcum_bow",
+  "textures": {
+    "layer0": "prodigium:item/orichalcum_bow_pulling_1"
+  }
+}

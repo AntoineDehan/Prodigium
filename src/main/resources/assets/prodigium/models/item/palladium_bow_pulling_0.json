@@ -1,0 +1,6 @@
+{
+  "parent":"prodigium:item/palladium_bow",
+  "textures": {
+    "layer0": "prodigium:item/palladium_bow_pulling_0"
+  }
+}
