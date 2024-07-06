@@ -12,6 +12,9 @@ public class ModTags {
     public static class Blocks {
 
     public static final TagKey<Block> NEEDS_COBALT_TOOL = tag("needs_cobalt_tool");
+        public static final TagKey<Block> NEEDS_PALLADIUM_TOOL = tag("needs_palladium_tool");
+        public static final TagKey<Block> NEEDS_ORICHALCUM_TOOL = tag("needs_orichalcum_tool");
+        public static final TagKey<Block> NEEDS_SHROOMITE_TOOL = tag("needs_shroomite_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(prodigium.MODID, name));

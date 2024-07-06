@@ -53,7 +53,7 @@ public class ModItems {
     public static final RegistryObject<Item>  COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe",
             () -> new PickaxeItem(ModToolTiers.COBALT,1, -2.8F, new  Item.Properties()));
     public static final RegistryObject<Item>  COBALT_AXE = ITEMS.register("cobalt_axe",
-            () -> new AxeItem(ModToolTiers.COBALT,5.0F, -3.0F, new  Item.Properties()));
+            () -> new AxeItem(ModToolTiers.COBALT,4.0F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  COBALT_SHOVEL = ITEMS.register("cobalt_shovel",
             () -> new ShovelItem(ModToolTiers.COBALT,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  COBALT_HOE = ITEMS.register("cobalt_hoe",
@@ -73,7 +73,16 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     // Tools and armors
-
+    public static final RegistryObject<Item>  PALLADIUM_SWORD = ITEMS.register("palladium_sword",
+            () -> new SwordItem(ModToolTiers.PALLADIUM,3, -2.4F, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_PICKAXE = ITEMS.register("palladium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.PALLADIUM,1, -2.8F, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_AXE = ITEMS.register("palladium_axe",
+            () -> new AxeItem(ModToolTiers.PALLADIUM,4.0F, -3.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_SHOVEL = ITEMS.register("palladium_shovel",
+            () -> new ShovelItem(ModToolTiers.PALLADIUM,1.5F, -3.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_HOE = ITEMS.register("palladium_hoe",
+            () -> new HoeItem(ModToolTiers.PALLADIUM,-2, -0.0F, new  Item.Properties()));
 
 
 // Orichalcum
@@ -89,6 +98,16 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     // Tools and armors
+    public static final RegistryObject<Item>  ORICHALCUM_SWORD = ITEMS.register("orichalcum_sword",
+            () -> new SwordItem(ModToolTiers.ORICHALCUM,3, -2.4F, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_PICKAXE = ITEMS.register("orichalcum_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ORICHALCUM,1, -2.8F, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_AXE = ITEMS.register("orichalcum_axe",
+            () -> new AxeItem(ModToolTiers.ORICHALCUM,5.0F, -3.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_SHOVEL = ITEMS.register("orichalcum_shovel",
+            () -> new ShovelItem(ModToolTiers.ORICHALCUM,1.5F, -3.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_HOE = ITEMS.register("orichalcum_hoe",
+            () -> new HoeItem(ModToolTiers.ORICHALCUM,-2, -0.0F, new  Item.Properties()));
 
 
 // Shroomite
@@ -101,6 +120,16 @@ public class ModItems {
 
 
     // Tools and armors
+    public static final RegistryObject<Item>  SHROOMITE_SWORD = ITEMS.register("shroomite_sword",
+            () -> new SwordItem(ModToolTiers.SHROOMITE,4, -2.4F, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_PICKAXE = ITEMS.register("shroomite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.SHROOMITE,1, -2.8F, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_AXE = ITEMS.register("shroomite_axe",
+            () -> new AxeItem(ModToolTiers.SHROOMITE,5.5F, -3.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_SHOVEL = ITEMS.register("shroomite_shovel",
+            () -> new ShovelItem(ModToolTiers.SHROOMITE,1.5F, -3.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_HOE = ITEMS.register("shroomite_hoe",
+            () -> new HoeItem(ModToolTiers.SHROOMITE,-3, -0.0F, new  Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
