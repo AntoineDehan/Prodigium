@@ -1,5 +1,6 @@
 package net.denlille.prodigium.item;
 
+import net.denlille.prodigium.item.custom.ModArmorMaterials;
 import net.denlille.prodigium.item.custom.ModToolTiers;
 import net.denlille.prodigium.prodigium;
 import net.minecraft.world.item.*;
@@ -47,6 +48,7 @@ public class ModItems {
     public static final RegistryObject<Item>  COBALT_NUGGET = ITEMS.register("cobalt_nugget",
             () -> new Item(new Item.Properties()));
 
+
     // Tools and armors
     public static final RegistryObject<Item>  COBALT_SWORD = ITEMS.register("cobalt_sword",
             () -> new SwordItem(ModToolTiers.COBALT,3, -2.4F, new  Item.Properties()));
@@ -58,6 +60,15 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.COBALT,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  COBALT_HOE = ITEMS.register("cobalt_hoe",
             () -> new HoeItem(ModToolTiers.COBALT,-2, -0.0F, new  Item.Properties()));
+
+    public static final RegistryObject<Item>  COBALT_HELMET = ITEMS.register("cobalt_helmet",
+            () -> new ArmorItem(ModArmorMaterials.COBALT,ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item>  COBALT_CHESTPLATE = ITEMS.register("cobalt_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.COBALT,ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+    public static final RegistryObject<Item>  COBALT_LEGGINGS = ITEMS.register("cobalt_leggings",
+            () -> new ArmorItem(ModArmorMaterials.COBALT,ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+    public static final RegistryObject<Item>  COBALT_BOOTS = ITEMS.register("cobalt_boots",
+            () -> new ArmorItem(ModArmorMaterials.COBALT,ArmorItem.Type.BOOTS, new  Item.Properties()));
 
 
 // Palladium
@@ -72,6 +83,7 @@ public class ModItems {
     public static final RegistryObject<Item>  PALLADIUM_ROD = ITEMS.register("palladium_rod",
             () -> new Item(new Item.Properties()));
 
+
     // Tools and armors
     public static final RegistryObject<Item>  PALLADIUM_SWORD = ITEMS.register("palladium_sword",
             () -> new SwordItem(ModToolTiers.PALLADIUM,3, -2.4F, new  Item.Properties()));
@@ -83,6 +95,15 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.PALLADIUM,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  PALLADIUM_HOE = ITEMS.register("palladium_hoe",
             () -> new HoeItem(ModToolTiers.PALLADIUM,-2, -0.0F, new  Item.Properties()));
+
+    public static final RegistryObject<Item>  PALLADIUM_HELMET = ITEMS.register("palladium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_CHESTPLATE = ITEMS.register("palladium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_LEGGINGS = ITEMS.register("palladium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_BOOTS = ITEMS.register("palladium_boots",
+            () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.BOOTS, new  Item.Properties()));
 
 
 // Orichalcum
@@ -97,6 +118,7 @@ public class ModItems {
     public static final RegistryObject<Item>  ORICHALCUM_ROD = ITEMS.register("orichalcum_rod",
             () -> new Item(new Item.Properties()));
 
+
     // Tools and armors
     public static final RegistryObject<Item>  ORICHALCUM_SWORD = ITEMS.register("orichalcum_sword",
             () -> new SwordItem(ModToolTiers.ORICHALCUM,3, -2.4F, new  Item.Properties()));
@@ -108,6 +130,15 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.ORICHALCUM,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  ORICHALCUM_HOE = ITEMS.register("orichalcum_hoe",
             () -> new HoeItem(ModToolTiers.ORICHALCUM,-2, -0.0F, new  Item.Properties()));
+
+    public static final RegistryObject<Item>  ORICHALCUM_HELMET = ITEMS.register("orichalcum_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ORICHALCUM,ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_CHESTPLATE = ITEMS.register("orichalcum_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ORICHALCUM,ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_LEGGINGS = ITEMS.register("orichalcum_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ORICHALCUM,ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_BOOTS = ITEMS.register("orichalcum_boots",
+            () -> new ArmorItem(ModArmorMaterials.ORICHALCUM,ArmorItem.Type.BOOTS, new  Item.Properties()));
 
 
 // Shroomite
@@ -130,6 +161,15 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.SHROOMITE,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  SHROOMITE_HOE = ITEMS.register("shroomite_hoe",
             () -> new HoeItem(ModToolTiers.SHROOMITE,-3, -0.0F, new  Item.Properties()));
+
+    public static final RegistryObject<Item>  SHROOMITE_HELMET = ITEMS.register("shroomite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SHROOMITE,ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_CHESTPLATE = ITEMS.register("shroomite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SHROOMITE,ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_LEGGINGS = ITEMS.register("shroomite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SHROOMITE,ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_BOOTS = ITEMS.register("shroomite_boots",
+            () -> new ArmorItem(ModArmorMaterials.SHROOMITE,ArmorItem.Type.BOOTS, new  Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
