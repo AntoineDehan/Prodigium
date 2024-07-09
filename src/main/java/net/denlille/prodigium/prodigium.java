@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.denlille.prodigium.block.ModBlocks;
 import net.denlille.prodigium.item.ModCreativeModTabs;
 import net.denlille.prodigium.item.ModItems;
+import net.denlille.prodigium.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -68,6 +69,7 @@ public class prodigium
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

@@ -95,6 +95,8 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.PALLADIUM,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  PALLADIUM_HOE = ITEMS.register("palladium_hoe",
             () -> new HoeItem(ModToolTiers.PALLADIUM,-2, -0.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  PALLADIUM_BOW = ITEMS.register("palladium_bow",
+            () -> new BowItem(new Item.Properties().durability(615)));
 
     public static final RegistryObject<Item>  PALLADIUM_HELMET = ITEMS.register("palladium_helmet",
             () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.HELMET, new  Item.Properties()));
@@ -130,6 +132,9 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.ORICHALCUM,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  ORICHALCUM_HOE = ITEMS.register("orichalcum_hoe",
             () -> new HoeItem(ModToolTiers.ORICHALCUM,-2, -0.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  ORICHALCUM_BOW = ITEMS.register("orichalcum_bow",
+            () -> new BowItem(new Item.Properties().durability(825)));
+
 
     public static final RegistryObject<Item>  ORICHALCUM_HELMET = ITEMS.register("orichalcum_helmet",
             () -> new ArmorItem(ModArmorMaterials.ORICHALCUM,ArmorItem.Type.HELMET, new  Item.Properties()));
@@ -161,6 +166,8 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.SHROOMITE,1.5F, -3.0F, new  Item.Properties()));
     public static final RegistryObject<Item>  SHROOMITE_HOE = ITEMS.register("shroomite_hoe",
             () -> new HoeItem(ModToolTiers.SHROOMITE,-3, -0.0F, new  Item.Properties()));
+    public static final RegistryObject<Item>  SHROOMITE_BOW = ITEMS.register("shroomite_bow",
+            () -> new BowItem(new Item.Properties().durability(1250)));
 
     public static final RegistryObject<Item>  SHROOMITE_HELMET = ITEMS.register("shroomite_helmet",
             () -> new ArmorItem(ModArmorMaterials.SHROOMITE,ArmorItem.Type.HELMET, new  Item.Properties()));
