@@ -30,6 +30,49 @@ public class ModItems {
     public static final RegistryObject<Item>  RESET_TOKEN_RANGED = ITEMS.register("reset_token_ranged",
             () -> new Item(new Item.Properties()));
 
+    // Treasure Bags
+    public static final RegistryObject<Item>  conjurer_treasure_bag = ITEMS.register("conjurer_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  sunbird_treasure_bag = ITEMS.register("sunbird_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  dead_king_treasure_bag = ITEMS.register("dead_king_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  frostmaw_treasure_bag = ITEMS.register("frostmaw_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  awful_ghast_treasure_bag = ITEMS.register("awful_ghast_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  nether_keeper_treasure_bag = ITEMS.register("nether_keeper_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  nether_gauntlet_treasure_bag = ITEMS.register("nether_gauntlet_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  netherite_monstrosity_treasure_bag = ITEMS.register("netherite_monstrosity_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  slider_treasure_bag = ITEMS.register("slider_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  valkyrie_queen_treasure_bag = ITEMS.register("valkyrie_queen_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  night_lich_treasure_bag = ITEMS.register("night_lich_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  void_blossom_treasure_bag = ITEMS.register("void_blossom_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  sun_spirit_treasure_bag = ITEMS.register("sun_spirit_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  leviathan_treasure_bag = ITEMS.register("leviathan_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  harbinger_treasure_bag = ITEMS.register("harbinger_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  ignis_treasure_bag = ITEMS.register("ignis_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  obsidilith_treasure_bag = ITEMS.register("obsidilith_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  void_worm_treasure_bag = ITEMS.register("void_worm_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  anciant_remnant_treasure_bag = ITEMS.register("anciant_remnant_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  ender_guardian_treasure_bag = ITEMS.register("ender_guardian_treasure_bag",
+            () -> new Item(new Item.Properties()));
+
+
     // Gates
     public static final RegistryObject<Item>  defender_medal = ITEMS.register("defender_medal",
             () -> new Item(new Item.Properties()));

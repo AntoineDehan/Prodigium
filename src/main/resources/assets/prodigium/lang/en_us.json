@@ -94,6 +94,28 @@
   "item.prodigium.defender_medal": "§6Defender Medal",
   "item.prodigium.eternia_crystal": "§6Eternia Crystal",
 
+  "item.prodigium.conjurer_treasure_bag": "§b§lConjurer Treasure Bag",
+  "item.prodigium.sunbird_treasure_bag": "§b§lSunbird Treasure Bag",
+  "item.prodigium.dead_king_treasure_bag": "§b§lDead King Treasure Bag",
+  "item.prodigium.frostmaw_treasure_bag": "§b§lFrostmaw Treasure Bag",
+  "item.prodigium.awful_ghast_treasure_bag": "§b§lAwful Ghast Treasure Bag",
+  "item.prodigium.nether_keeper_treasure_bag": "§b§lNether Keeper Treasure Bag",
+  "item.prodigium.nether_gauntlet_treasure_bag": "§b§lNether Gauntlet Treasure Bag",
+  "item.prodigium.netherite_monstrosity_treasure_bag": "§b§lNetherite Monstrosity Treasure Bag",
+  "item.prodigium.slider_treasure_bag": "§b§lSlider Treasure Bag",
+  "item.prodigium.valkyrie_queen_treasure_bag": "§b§lValkyrie Queen Treasure Bag",
+  "item.prodigium.night_lich_treasure_bag": "§b§lNight Lich Treasure Bag",
+  "item.prodigium.void_blossom_treasure_bag": "§b§lVoid Blossom Treasure Bag",
+  "item.prodigium.sun_spirit_treasure_bag": "§b§lSun Spirit Treasure Bag",
+  "item.prodigium.leviathan_treasure_bag": "§b§lLeviathan Treasure Bag",
+  "item.prodigium.harbinger_treasure_bag": "§b§lHarbinger Treasure Bag",
+  "item.prodigium.ignis_treasure_bag": "§b§lIgnis Treasure Bag",
+  "item.prodigium.obsidilith_treasure_bag": "§b§lObsidilith Treasure Bag",
+  "item.prodigium.void_worm_treasure_bag": "§b§lVoid Worm Treasure Bag",
+  "item.prodigium.anciant_remnant_treasure_bag": "§b§lAnciant Remnant Treasure Bag",
+  "item.prodigium.ender_guardian_treasure_bag": "§b§lEnder Guardian Treasure Bag",
+
+
 
   "creativetab.prodigium_tab": "Prodigium's creative tab"
 }
