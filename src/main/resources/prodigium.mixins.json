@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.denlille.prodigium.mixin",
+  "refmap": "mixins.prodigium.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ItemMixin"
+  ],
+  "client": [
+    "EntityMixin",
+    "ItemMixinClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

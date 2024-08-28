@@ -6,6 +6,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 
 public class ModTags {
@@ -25,5 +26,12 @@ public class ModTags {
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(prodigium.MODID, name));
         }
+        public static final TagKey<Item> ITEM_IMMUNE = tag("immune");
+        public static final TagKey<Item> ITEM_GLOWING = tag("glow");
+
+        public static boolean tagEnabled(ItemStack item, String tagName, TagKey<Item> tag) {
+            return item.getOrCreateTag().getBoolean(tagName) || item.is(tag);
+        }
     }
+
 }

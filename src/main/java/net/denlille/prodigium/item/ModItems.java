@@ -3,6 +3,9 @@ package net.denlille.prodigium.item;
 import net.denlille.prodigium.item.custom.ModArmorMaterials;
 import net.denlille.prodigium.item.custom.ModToolTiers;
 import net.denlille.prodigium.prodigium;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,6 +15,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, prodigium.MODID);
+
+    // Tags
+
+
 
 
 // Misc items
