@@ -7,14 +7,13 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import static net.denlille.prodigium.util.ModTags.Items.ITEM_GLOWING;
+
 @Mixin(ItemEntity.class)
 public class ItemMixinClient extends EntityMixin {
-
     @Override
     public void shouldItemGlow(CallbackInfoReturnable<Boolean> cir) {
-        if (ModTags.Items.tagEnabled(getItem(), "Glow", ModTags.Items.ITEM_GLOWING)) {
-            cir.setReturnValue(true);
-        }
+        if (is(ITEM_GLOWING)) cir.setReturnValue(true);
     }
 
     @Shadow

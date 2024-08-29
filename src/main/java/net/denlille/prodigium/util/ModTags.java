@@ -28,6 +28,7 @@ public class ModTags {
         }
         public static final TagKey<Item> ITEM_IMMUNE = tag("immune");
         public static final TagKey<Item> ITEM_GLOWING = tag("glow");
+        public static final TagKey<Item> ITEM_FLOATING = tag("float");
 
         public static boolean tagEnabled(ItemStack item, String tagName, TagKey<Item> tag) {
             return item.getOrCreateTag().getBoolean(tagName) || item.is(tag);
