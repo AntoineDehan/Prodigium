@@ -74,7 +74,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  void_worm_treasure_bag = ITEMS.register("void_worm_treasure_bag",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item>  anciant_remnant_treasure_bag = ITEMS.register("anciant_remnant_treasure_bag",
+    public static final RegistryObject<Item>  anciant_remnant_treasure_bag = ITEMS.register("ancient_remnant_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  ender_guardian_treasure_bag = ITEMS.register("ender_guardian_treasure_bag",
             () -> new Item(new Item.Properties()));
