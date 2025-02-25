@@ -38,11 +38,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     // Treasure Bags
+    public static final RegistryObject<Item>  swampjaw_treasure_bag = ITEMS.register("swampjaw_treasure_bag",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  conjurer_treasure_bag = ITEMS.register("conjurer_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  sunbird_treasure_bag = ITEMS.register("sunbird_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  dead_king_treasure_bag = ITEMS.register("dead_king_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  bellringer_treasure_bag = ITEMS.register("bellringer_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  frostmaw_treasure_bag = ITEMS.register("frostmaw_treasure_bag",
             () -> new Item(new Item.Properties()));
@@ -55,6 +59,8 @@ public class ModItems {
     public static final RegistryObject<Item>  netherite_monstrosity_treasure_bag = ITEMS.register("netherite_monstrosity_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  slider_treasure_bag = ITEMS.register("slider_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  dame_fortuna_treasure_bag = ITEMS.register("dame_fortuna_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  valkyrie_queen_treasure_bag = ITEMS.register("valkyrie_queen_treasure_bag",
             () -> new Item(new Item.Properties()));
@@ -73,6 +79,8 @@ public class ModItems {
     public static final RegistryObject<Item>  obsidilith_treasure_bag = ITEMS.register("obsidilith_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  void_worm_treasure_bag = ITEMS.register("void_worm_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  rosalynne_treasure_bag = ITEMS.register("rosalynne_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  anciant_remnant_treasure_bag = ITEMS.register("ancient_remnant_treasure_bag",
             () -> new Item(new Item.Properties()));
