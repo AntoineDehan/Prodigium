@@ -38,6 +38,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     // Treasure Bags
+    public static final RegistryObject<Item>  king_slime_treasure_bag = ITEMS.register("king_slime_treasure_bag",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  swampjaw_treasure_bag = ITEMS.register("swampjaw_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  conjurer_treasure_bag = ITEMS.register("conjurer_treasure_bag",
