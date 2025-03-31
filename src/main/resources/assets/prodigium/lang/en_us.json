@@ -117,9 +117,10 @@
   "item.prodigium.swampjaw_treasure_bag": "§b§lSwampjaw Treasure Bag",
   "item.prodigium.bellringer_treasure_bag": "§b§lBellringer Treasure Bag",
   "item.prodigium.dame_fortuna_treasure_bag": "§b§lDame Fortuna Treasure Bag",
-  "item.prodigium.rosalynne_treasure_bag": "§b§lRosalynne Treasure Bag",
+  "item.prodigium.rosalynne_treasure_bag": "§b§lRosalyne Treasure Bag",
+  "item.prodigium.king_slime_treasure_bag": "§b§lKing Slime Treasure Bag",
 
 
 
-  "creativetab.prodigium_tab": "Prodigium's creative tab"
+  "creativetab.prodigium_tab": "Prodigium"
 }
