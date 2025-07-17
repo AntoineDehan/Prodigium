@@ -70,6 +70,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  void_blossom_treasure_bag = ITEMS.register("void_blossom_treasure_bag",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  aerwhale_king_treasure_bag = ITEMS.register("aerwhale_king_treasure_bag",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  sun_spirit_treasure_bag = ITEMS.register("sun_spirit_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  leviathan_treasure_bag = ITEMS.register("leviathan_treasure_bag",
