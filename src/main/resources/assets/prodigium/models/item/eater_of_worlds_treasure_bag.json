@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "prodigium:item/eater_of_worlds_treasure_bag"
+  }
+}

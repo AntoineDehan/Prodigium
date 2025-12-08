@@ -119,7 +119,19 @@
   "item.prodigium.dame_fortuna_treasure_bag": "§b§lDame Fortuna Treasure Bag",
   "item.prodigium.rosalynne_treasure_bag": "§b§lRosalyne Treasure Bag",
   "item.prodigium.king_slime_treasure_bag": "§b§lKing Slime Treasure Bag",
+  "item.prodigium.aerwhale_king_treasure_bag": "§b§lAerwhale King Treasure Bag",
+  "item.prodigium.eye_of_cthulhu_treasure_bag": "§b§lEye Of Cthluhu Treasure Bag",
+  "item.prodigium.ferrous_wroughtnaut_treasure_bag": "§b§lFerrous Wroughtnaut Treasure Bag",
+  "item.prodigium.eater_of_worlds_treasure_bag": "§b§lEater Of Worlds Treasure Bag",
+  "item.prodigium.brain_of_cthulhu_treasure_bag": "§b§lBrain Of Cthulhu Treasure Bag",
+  "item.prodigium.queen_bee_treasure_bag": "§b§lQueen Bee Treasure Bag",
+  "item.prodigium.skeletron_treasure_bag": "§b§lSkeletron Treasure Bag",
 
+  "item.prodigium.underworld_knight_treasure_bag": "§b§lUnderworld Knight Treasure Bag",
+  "item.prodigium.infernal_dragon_treasure_bag": "§b§lInfernal Dragon Treasure Bag",
+  "item.prodigium.sandworm_treasure_bag": "§b§lSandworm Treasure Bag",
+
+  "block.prodigium.tungsten_ore": "Tungsten Ore",
 
 
   "creativetab.prodigium_tab": "Prodigium"

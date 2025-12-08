@@ -38,6 +38,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(4,8)));
 
+    public static final RegistryObject<Block> TUNGSTEN_ORE = registerBlock("tungsten_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(4,9)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

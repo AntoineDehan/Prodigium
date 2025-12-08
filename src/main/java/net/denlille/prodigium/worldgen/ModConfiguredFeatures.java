@@ -24,6 +24,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> COBALT_ORE_KEY = registerKey("cobalt_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> PALLADIUM_ORE_KEY = registerKey("palladium_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> ORICHALCUM_ORE_KEY = registerKey("orichalcum_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> TUNGSTEN_ORE_KEY = registerKey("tungsten_ore");
 
 public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
     RuleTest stoneReplacable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -42,6 +43,7 @@ public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
     register(context, PALLADIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworldPalladiumOres, 7));
 
     register(context, ORICHALCUM_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables, ModBlocks.ORICHALCUM_ORE.get().defaultBlockState(), 8));
+    register(context, TUNGSTEN_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables, ModBlocks.TUNGSTEN_ORE.get().defaultBlockState(), 8));
 }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

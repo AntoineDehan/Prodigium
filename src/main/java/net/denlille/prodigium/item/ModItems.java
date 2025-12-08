@@ -42,9 +42,23 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  swampjaw_treasure_bag = ITEMS.register("swampjaw_treasure_bag",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  eye_of_cthulhu_treasure_bag = ITEMS.register("eye_of_cthulhu_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  ferrous_wroughtnaut_treasure_bag = ITEMS.register("ferrous_wroughtnaut_treasure_bag",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  conjurer_treasure_bag = ITEMS.register("conjurer_treasure_bag",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  sandworm_treasure_bag = ITEMS.register("sandworm_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  eater_of_worlds_treasure_bag = ITEMS.register("eater_of_worlds_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  brain_of_cthulhu_treasure_bag = ITEMS.register("brain_of_cthulhu_treasure_bag",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  sunbird_treasure_bag = ITEMS.register("sunbird_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  queen_bee_treasure_bag = ITEMS.register("queen_bee_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  infernal_dragon_treasure_bag = ITEMS.register("infernal_dragon_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  dead_king_treasure_bag = ITEMS.register("dead_king_treasure_bag",
             () -> new Item(new Item.Properties()));
@@ -52,11 +66,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  frostmaw_treasure_bag = ITEMS.register("frostmaw_treasure_bag",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  skeletron_treasure_bag = ITEMS.register("skeletron_treasure_bag",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  awful_ghast_treasure_bag = ITEMS.register("awful_ghast_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  nether_keeper_treasure_bag = ITEMS.register("nether_keeper_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  nether_gauntlet_treasure_bag = ITEMS.register("nether_gauntlet_treasure_bag",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  underworld_knight_treasure_bag = ITEMS.register("underworld_knight_treasure_bag",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  netherite_monstrosity_treasure_bag = ITEMS.register("netherite_monstrosity_treasure_bag",
             () -> new Item(new Item.Properties()));
@@ -168,6 +186,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.LEGGINGS, new  Item.Properties()));
     public static final RegistryObject<Item>  PALLADIUM_BOOTS = ITEMS.register("palladium_boots",
             () -> new ArmorItem(ModArmorMaterials.PALLADIUM,ArmorItem.Type.BOOTS, new  Item.Properties()));
+
 
 
 // Orichalcum
