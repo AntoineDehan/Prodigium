@@ -2,6 +2,7 @@ package net.denlille.prodigium;
 
 import com.mojang.logging.LogUtils;
 import net.denlille.prodigium.block.ModBlocks;
+import net.denlille.prodigium.config.ProdigiumConfig;
 import net.denlille.prodigium.item.ModCreativeModTabs;
 import net.denlille.prodigium.item.ModItems;
 import net.denlille.prodigium.util.ModItemProperties;
@@ -36,6 +37,8 @@ public class prodigium
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ProdigiumConfig.SPEC);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -5,10 +5,11 @@
   "refmap": "mixins.prodigium.refmap.json",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BrainOfConfusionMixin",
+    "EntityMixin",
     "ItemMixin"
   ],
   "client": [
-    "EntityMixin",
     "ItemMixinClient"
   ],
   "injectors": {
