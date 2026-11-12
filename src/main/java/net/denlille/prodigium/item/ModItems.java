@@ -108,6 +108,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item>  ender_guardian_treasure_bag = ITEMS.register("ender_guardian_treasure_bag",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item>  ice_spider_treasure_bag = ITEMS.register("ice_spider_treasure_bag",
+            () -> new Item(new Item.Properties()));
 
 
     // Gates
