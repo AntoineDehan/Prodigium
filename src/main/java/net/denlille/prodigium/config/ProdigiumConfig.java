@@ -12,6 +12,10 @@ public class ProdigiumConfig {
     public static final ForgeConfigSpec.IntValue BRAIN_OF_CONFUSION_MAX_DURATION;
     public static final ForgeConfigSpec.IntValue BRAIN_OF_CONFUSION_COOLDOWN;
 
+    // Bosses of Mass Destruction - Nether Gauntlet laser
+    public static final ForgeConfigSpec.BooleanValue NETHER_GAUNTLET_TWEAK;
+    public static final ForgeConfigSpec.DoubleValue NETHER_GAUNTLET_LASER_DAMAGE_MULTIPLIER;
+
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
 
@@ -29,6 +33,17 @@ public class ProdigiumConfig {
         BRAIN_OF_CONFUSION_COOLDOWN = builder
                 .comment("Cooldown between two procs for the same wearer, in ticks (20 ticks = 1 second).")
                 .defineInRange("cooldownTicks", 100, 0, 72000);
+        builder.pop();
+
+        builder.comment("Fix for the Nether Gauntlet laser from Bosses of Mass Destruction",
+                        "(the original laser permanently inflates the boss attack damage when it has attribute modifiers)")
+                .push("nether_gauntlet");
+        NETHER_GAUNTLET_TWEAK = builder
+                .comment("Enable the fix. If false, the original Bosses of Mass Destruction behaviour is kept.")
+                .define("enabled", true);
+        NETHER_GAUNTLET_LASER_DAMAGE_MULTIPLIER = builder
+                .comment("Laser damage per hit, as a fraction of the Gauntlet's attack damage (BOMD uses 0.75).")
+                .defineInRange("laserDamageMultiplier", 0.75D, 0.0D, 10.0D);
         builder.pop();
 
         SPEC = builder.build();
