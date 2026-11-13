@@ -16,6 +16,10 @@ public class ProdigiumConfig {
     public static final ForgeConfigSpec.BooleanValue NETHER_GAUNTLET_TWEAK;
     public static final ForgeConfigSpec.DoubleValue NETHER_GAUNTLET_LASER_DAMAGE_MULTIPLIER;
 
+    // Boss projectile immunities (arrows and tridents bouncing off)
+    public static final ForgeConfigSpec.BooleanValue REMOVE_FROSTMAW_PROJECTILE_IMMUNITY;
+    public static final ForgeConfigSpec.BooleanValue REMOVE_HARBINGER_PROJECTILE_IMMUNITY;
+
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
 
@@ -44,6 +48,17 @@ public class ProdigiumConfig {
         NETHER_GAUNTLET_LASER_DAMAGE_MULTIPLIER = builder
                 .comment("Laser damage per hit, as a fraction of the Gauntlet's attack damage (BOMD uses 0.75).")
                 .defineInRange("laserDamageMultiplier", 0.75D, 0.0D, 10.0D);
+        builder.pop();
+
+        builder.comment("Remove the immunity of some modded bosses to arrows and tridents (the projectile bounces off)")
+                .push("projectile_immunity");
+        REMOVE_FROSTMAW_PROJECTILE_IMMUNITY = builder
+                .comment("Remove Frostmaw's (Mowzie's Mobs) immunity to arrows and tridents.")
+                .define("removeFrostmaw", true);
+        REMOVE_HARBINGER_PROJECTILE_IMMUNITY = builder
+                .comment("Remove The Harbinger's (Cataclysm) immunity to arrows and tridents in its second phase (below 50% health).",
+                        "Its long range immunity is configured in cataclysm.toml (\"The Harbinger's prevent attacks from far away Range\").")
+                .define("removeHarbinger", true);
         builder.pop();
 
         SPEC = builder.build();
