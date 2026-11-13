@@ -19,6 +19,8 @@ public class ProdigiumConfig {
     // Boss projectile immunities (arrows and tridents bouncing off)
     public static final ForgeConfigSpec.BooleanValue REMOVE_FROSTMAW_PROJECTILE_IMMUNITY;
     public static final ForgeConfigSpec.BooleanValue REMOVE_HARBINGER_PROJECTILE_IMMUNITY;
+    public static final ForgeConfigSpec.BooleanValue REMOVE_AERWHALE_KING_PROJECTILE_IMMUNITY;
+    public static final ForgeConfigSpec.BooleanValue AERWHALE_KING_PROJECTILES_ONLY_WHEN_STUNNED;
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
@@ -59,6 +61,13 @@ public class ProdigiumConfig {
                 .comment("Remove The Harbinger's (Cataclysm) immunity to arrows and tridents in its second phase (below 50% health).",
                         "Its long range immunity is configured in cataclysm.toml (\"The Harbinger's prevent attacks from far away Range\").")
                 .define("removeHarbinger", true);
+        REMOVE_AERWHALE_KING_PROJECTILE_IMMUNITY = builder
+                .comment("Remove the Aerwhale King's (Lost Content) immunity to projectiles.",
+                        "Projectiles then follow its melee rules: 30% damage capped at 5 per hit, full damage capped at 18 while stunned.")
+                .define("removeAerwhaleKing", true);
+        AERWHALE_KING_PROJECTILES_ONLY_WHEN_STUNNED = builder
+                .comment("Only let projectiles hit the Aerwhale King while it is stunned after a charge (3 seconds).")
+                .define("aerwhaleKingOnlyWhenStunned", false);
         builder.pop();
 
         SPEC = builder.build();
