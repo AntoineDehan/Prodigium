@@ -12,6 +12,13 @@ public class ProdigiumConfig {
     public static final ForgeConfigSpec.IntValue BRAIN_OF_CONFUSION_MAX_DURATION;
     public static final ForgeConfigSpec.IntValue BRAIN_OF_CONFUSION_COOLDOWN;
 
+    // Terra Curio (Confluence) - Bees spawned by the honey accessories
+    public static final ForgeConfigSpec.BooleanValue BEES_TWEAK;
+    public static final ForgeConfigSpec.DoubleValue BEES_DAMAGE_MULTIPLIER;
+    public static final ForgeConfigSpec.DoubleValue BEES_SPEED_MULTIPLIER;
+    public static final ForgeConfigSpec.IntValue BEES_HIT_COOLDOWN;
+    public static final ForgeConfigSpec.BooleanValue BEES_ONLY_HIT_ENEMIES;
+
     // Bosses of Mass Destruction - Nether Gauntlet laser
     public static final ForgeConfigSpec.BooleanValue NETHER_GAUNTLET_TWEAK;
     public static final ForgeConfigSpec.DoubleValue NETHER_GAUNTLET_LASER_DAMAGE_MULTIPLIER;
@@ -39,6 +46,27 @@ public class ProdigiumConfig {
         BRAIN_OF_CONFUSION_COOLDOWN = builder
                 .comment("Cooldown between two procs for the same wearer, in ticks (20 ticks = 1 second).")
                 .defineInRange("cooldownTicks", 100, 0, 72000);
+        builder.pop();
+
+        builder.comment("Tweaks applied to the bees spawned by the Terra Curio (Confluence) honey accessories",
+                        "(Honey Comb, Bee Cloak, Stinger/Sweetheart Necklace, Honey/Amber Horseshoe Balloon, Hive Pack)")
+                .push("bees");
+        BEES_TWEAK = builder
+                .comment("Enable the tweak. If false, the original Terra Curio behaviour is kept.")
+                .define("enabled", true);
+        BEES_DAMAGE_MULTIPLIER = builder
+                .comment("Bee damage multiplier.")
+                .defineInRange("damageMultiplier", 0.5D, 0.0D, 10.0D);
+        BEES_SPEED_MULTIPLIER = builder
+                .comment("Bee speed multiplier (scales its homing acceleration, which is its only source of speed).")
+                .defineInRange("speedMultiplier", 0.7D, 0.0D, 10.0D);
+        BEES_HIT_COOLDOWN = builder
+                .comment("Minimum ticks between two hits of the same bee (20 ticks = 1 second).",
+                        "A bee alone is otherwise limited by the target's invulnerability frames (about 10 ticks).")
+                .defineInRange("hitCooldownTicks", 13, 0, 1200);
+        BEES_ONLY_HIT_ENEMIES = builder
+                .comment("Bees only hurt monsters (originally they hurt any entity they touch except their owner).")
+                .define("onlyHitEnemies", true);
         builder.pop();
 
         builder.comment("Fix for the Nether Gauntlet laser from Bosses of Mass Destruction",
